@@ -4,8 +4,8 @@ from pymongo import MongoClient
 
 
 
-api_key = "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"
-uri =  "mongodb+srv://Cluster51958:a3JmXk5FfXpJ@cluster51958.mxndeya.mongodb.net/?retryWrites=true&w=majority&appName=Cluster51958"
+api_key = "#"
+uri =  "#"
 client = MongoClient(uri)
 db = client["resume_user"]
 students_collection = db["user"]
